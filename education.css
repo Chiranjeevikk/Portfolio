@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 5%  5%;
+    align-items: flex-start;
+    justify-content: space-between;   
+    background: linear-gradient(rgb(241, 55, 55), rgb(246, 182, 63));
+}
+
+ header{
+    width: 24rem;
+    background: rgba(248, 247, 247, 0.059);
+    box-shadow: 0px 5px 8px;
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+    border-radius: 15px;   
+    padding-bottom: 10px; 
+}
+
+header h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+header a{
+   padding-left: 10px;
+   font-weight: 800;
+   font-size: 17px;
+}
+header .nav{
+    padding: 10px 5px;
+    border: 2px solid white;
+    margin: 5px;
+}
+header a:hover{
+    color: white;
+}
+
+header .container{
+    display: block;
+    text-align: left;
+    padding: 30px;  
+}
+
+header .container .box{
+    width: 340px;
+    padding: 0 16px 15px;
+    border-left: 3px solid#fff;
+}
+header .container .box .year{
+    font-size: 17px;
+    position: relative;
+    width: 300px;
+}
+header .container .box .year::before{
+    content: '';
+    position: absolute;
+    top: 3px;left: -1.4rem;
+    height: 12px;width: 12px;
+    border-radius: 50%;
+    background: #fff;
+}
+header .container .box span{
+    font-weight: 900;
+    color: white;
+   
+}

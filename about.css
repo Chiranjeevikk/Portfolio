@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 5%  20%;
+    align-items: flex-start;
+    justify-content: space-between;   
+    background: linear-gradient(rgb(241, 55, 55), rgb(246, 182, 63));
+}
+
+ header{
+    width: 24rem;
+    background: rgba(241, 32, 32, 0.692);
+    box-shadow: 0px 5px 8px;
+    backdrop-filter: blur(.4rem);
+    text-align: start;
+    padding-top: 10px;
+    border-radius: 15px;   
+    padding-bottom: 10px; 
+    
+}
+
+header h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+     
+}
+.skill{
+    margin-top: 10px;
+}
+.skill h3{
+    color: blue;
+    padding-bottom: 5px;
+  
+}
+.skill h4{
+    color: rgb(8, 51, 116);
+}
+.skill a img{
+    padding-top: 10px;
+}
+
+.introduction{
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+header a{
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 17px;
+ }
+ header .nav{
+     padding: 10px 5px;
+     border: 2px solid white;
+     margin: 5px;
+ }
+header a:hover{
+    color: white;
+}
+.skill a{
+
+   
+    text-decoration: none;
+    border: black 2px solid;
+    border-radius: 35px;
+    color: white;
+    margin: 20% 10%;
+}
+.skill a:hover{
+    background-color: blue;
+    color: white;
+    border: white 2px solid;
+}
+.intro h5{
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
